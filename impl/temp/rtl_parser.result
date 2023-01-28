@@ -1,0 +1,38 @@
+[
+ {
+  "InstFile" : "C:/Users/Kitty/Documents/LCD/src/main.v",
+  "InstLine" : 1,
+  "InstName" : "TOP",
+  "ModuleFile" : "C:/Users/Kitty/Documents/LCD/src/main.v",
+  "ModuleLine" : 1,
+  "ModuleName" : "TOP",
+  "SubInsts" : [
+   {
+    "InstFile" : "C:/Users/Kitty/Documents/LCD/src/main.v",
+    "InstLine" : 20,
+    "InstName" : "chip_pll",
+    "ModuleFile" : "C:/Users/Kitty/Documents/LCD/src/gowin_rpll/gowin_rpll.v",
+    "ModuleLine" : 9,
+    "ModuleName" : "Gowin_rPLL"
+   },
+   {
+    "InstFile" : "C:/Users/Kitty/Documents/LCD/src/main.v",
+    "InstLine" : 26,
+    "InstName" : "VGAMod_inst",
+    "ModuleFile" : "C:/Users/Kitty/Documents/LCD/src/lcd.v",
+    "ModuleLine" : 1,
+    "ModuleName" : "VGAMod",
+    "SubInsts" : [
+     {
+      "InstFile" : "C:/Users/Kitty/Documents/LCD/src/lcd.v",
+      "InstLine" : 65,
+      "InstName" : "SDRAMInstance",
+      "ModuleFile" : "C:/Users/Kitty/Documents/LCD/src/gowin_sp/gowin_sp.v",
+      "ModuleLine" : 9,
+      "ModuleName" : "Gowin_SP"
+     }
+    ]
+   }
+  ]
+ }
+]

@@ -1,0 +1,11 @@
+-d C:\Users\Kitty\Documents\LCD\impl\gwsynthesis\LCD.vg
+-p GW1NR-9C-QFN88P-6
+-pn GW1NR-LV9QN88PC6/I5
+-cst C:\Users\Kitty\Documents\LCD\src\LCD.cst
+-cfg C:\Users\Kitty\Documents\LCD\impl\pnr\device.cfg
+-bit
+-tr
+-ph
+-timing
+-cst_error
+-route_maxfan 23

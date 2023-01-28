@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Module name="TOP">
+    <SubModule name="chip_pll"/>
+    <SubModule name="VGAMod_inst" Register="32" Lut="262" Dsp="1">
+        <SubModule name="SDRAMInstance" Register="4" Lut="105" Bsram="24"/>
+    </SubModule>
+</Module>
